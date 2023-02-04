@@ -1,0 +1,61 @@
+
+body{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 100px;
+    background-color: cadetblue;
+    
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
+
+}
+.container{
+    padding-left:0;
+    
+}
+.buttons{
+    height: 80px;
+    width: 320px;
+    padding-top: 50px;
+    display:flex ;
+    justify-content: space-around;
+    justify-items: flex-start;
+}
+.reload{
+    padding-top: 2px;
+}
+.btn_reload{
+        height: 50px;
+        width: 100px;
+
+
+}
+button{
+
+    height: 50px;
+    width: 100px;
+    border-color: darkcyan;
+    border-radius: 5px;
+    background-color: aliceblue;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+.img_rock{
+max-width: 109%;
+max-height: 150%;
+
+}
+.img_paper{
+padding-top: 10px;
+max-width: 108%;
+max-height: 150%;
+
+}
+.img_scissors{
+max-width: 60%;
+max-height: 60%;
+
+}
